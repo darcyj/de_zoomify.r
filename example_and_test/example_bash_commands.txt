@@ -1,0 +1,3 @@
+# Run from this directory:
+tar -xvf 2572.tar
+../de_zoomify.r -i 2572/ -o assembled.jpg
