@@ -19,7 +19,7 @@ The example_and_test folder contains an example of how to use this program using
 
 ### Example 2
 To use this script across multiple zoomified folders (each containing tiles for a separate image):
-  `for f in *; do`
-  `  ./de_zoomify.r -i $f -o "$f_image.jpg";`
-  `done`
+  ```for f in *; do
+    ./de_zoomify.r -i $f -o "$f_image.jpg";
+  done```
 you can try this by copying and renaming the example folder.
