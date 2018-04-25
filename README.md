@@ -11,6 +11,8 @@ The program zoomify splits an image into tiles, which is useful to speed up imag
 * -n: noisy mode TRUE or FALSE (default is FALSE)
 
 ### Requirements
+First, this will probably only work on OS X and on Linux. Windows doesn't have bash, so I don't know how you'd run rscript on windows. Maybe using windoes linux subsystem? 
+
 To use this script, you need rscript installed (comes with R installation), and the R packages optparse and jpeg. You will also need to add execution privilages for this file. do so in bash with
 		chmod a+x de_zoomify.r
 
